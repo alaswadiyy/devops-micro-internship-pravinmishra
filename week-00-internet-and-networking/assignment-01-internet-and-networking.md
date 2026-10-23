@@ -34,9 +34,10 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
 
----
+A network protocol is a set of rules that allows devices to communicate and exchange data over a network.
+Examples include HTTP/HTTPS for web communication, TCP for reliable data delivery, IP for routing data, and DNS for translating domain names into IP addresses.
+
 
 # 🌐 Task 2: Internet and Networking
 
@@ -59,9 +60,17 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
 
----
+EpicReads is an online bookstore hosted on a server in Finland, but users around the world can access it through the internet.
+
+When a user visits the website, Packet Switching breaks the data into small packets that travel across different networks to reach the user's device. Each device connected to the internet has an IP Address, which helps identify it and route data to the correct destination.
+
+TCP/IP is a suite of protocols that enables communication between devices. IP handles addressing and routing, while TCP helps ensure data is delivered reliably and in the correct order.
+
+HTTP/HTTPS allows the user's browser to communicate with the EpicReads web server and request web pages. HTTPS adds encryption to protect information exchanged between the browser and server.
+
+Together, these technologies allow customers worldwide to browse books, view prices, and shop on EpicReads, regardless of their location.
+
 
 # 🏗️ Task 3: Application Architecture & Stack
 
@@ -102,18 +111,20 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML
+* CSS
+* Javascript
+* React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* PostgreSQL
+* MySQL
 
 ---
 
@@ -142,9 +153,10 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
 
----
+DNS (Domain Name System) is like the internet's phonebook. It translates human-readable domain names, such as epicreads.com, into IP addresses that computers use to find servers.
+
+For EpicReads, an A record should be created to point epicreads.com to the IPv4 address 52.172.142.222. This allows users to access the website using its domain name instead of memorizing the IP address. However, because the website currently uses port 3000, additional configuration may be needed to make it accessible through the domain without specifying the port.
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -237,7 +249,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://lnkd.in/p/dEz4daTz
 ```
 
 ---
@@ -246,28 +258,46 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 Turning DevOps Knowledge into Practical Projects | DMI Cohort 4
+I’m building my understanding of DevOps step by step through the DevOps Micro Internship (DMI) with Agentic AI. Here are some of the key things I’ve learned so far for the first week.
 
----
+🤖 ChatGPT
+I explored how ChatGPT can support learning, explain technical concepts, and help me understand new tools and technologies.
+🌐 Internet & Networking
+I learned what network protocols are and how technologies such as Packet Switching, IP addresses, TCP/IP, and HTTP/HTTPS help devices communicate across the internet.
+🏗️ App Architecture
+I explored the difference between two-tier and three-tier applications. A two-tier application has a frontend and database, while a three-tier application adds a backend layer to handle business logic and communication between the frontend and database.
+🌍 DNS
+I learned that the Domain Name System (DNS) translates domain names into IP addresses. For EpicReads, an A record can point epicreads.com to the server's IPv4 address, 52,172,142,222. Since the application uses port 3000, additional configuration may be required to access it without specifying the port.
+💻 VS Code Setup
+I explored setting up Visual Studio Code as a development environment for writing, managing, and organizing code while working on technical projects.
+Each task has helped me strengthen my foundational knowledge of the internet, application architecture, and the tools used in software development and DevOps.
+I'm looking forward to applying these concepts in practical projects and continuing to learn! 📚
+Thanks to Pravin Mishra and Lead Co-Mentor Anjana Muthunayake for facilitating this learning journey.
+
+#DevOps #DMICohort4 #AgenticAI #Networking #DNS #SoftwareDevelopment #ContinuousLearning
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 4 — by Pravin Mishra. My graded progress is public:
+https://lnkd.in/dsU5DRGz
+Start your DevOps journey: https://lnkd.in/d8NZ_Hwe
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
 Add your answer here...
-
+I find using ChatGPT easy
 ---
 
 ### What was difficult?
 
 Add your answer here...
-
+None
 ---
 
 ### What will you improve next week?
 
 Add your answer here...
-
+Nothing for now
 ---
 
 ## 📌 About DMI & CloudAdvisory
